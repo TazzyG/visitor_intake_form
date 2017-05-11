@@ -3,22 +3,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Mini app, for a pick me up.
 
-* Ruby version
+Creating an intake form for visitors to Creative Calgary or Friendly Road. 
 
-* System dependencies
+Keep it simple for now.. focusing on the form, although I want to track the data as well. 
 
-* Configuration
+Question 1 - Do I want to User to sign in? (We'll decide tomorrow)... for now a form, I can send them a signin invite in response to the form. 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Steps: Creating a contact form, similar to what I have on the sites

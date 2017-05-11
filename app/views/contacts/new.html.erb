@@ -1,0 +1,32 @@
+<% provide(:title, 'Contact Us') %>
+<div id="contact" class="text-left">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="panel panel-default">
+        <div class= "panel-heading">
+          <h2>Contact Us</h2>
+        </div>
+        <div class= "panel-body">
+          <%= form_for(@contact) do |f| %>
+            
+           <div class="form-group">
+              <%= f.label :name %><br />
+              <%= f.text_field :name, autofocus: true, required: true, class: "form-control" %>
+            </div>
+            <div class="form-group">
+              <%= f.label :email %><br />
+              <%= f.email_field :email, autofocus: true, required:true, class: "form-control" %>
+            </div>
+            <div class="form-group">
+              <%= f.label :message %><br />
+              <%= f.text_area :message, autofocus: true, rows:3, required:true,  class: "form-control" %>
+            </div>
+           <div class="btn-group">
+                <%= f.submit "Send Message", class: "btn btn-primary" %>
+            </div>
+          <% end %>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
